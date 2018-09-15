@@ -6,10 +6,15 @@ This is a sample NPM module created in _[Learn Enough Javascript to be Dangerous
 The module can be used as follows:
 
 `$ npm install --global julbosch-palindrome
+
 $ vim test.js
+
 let Phrase = require("julbosch-palindrome");
+
 let napoleonsLament = new Phrase("Able was I, ere I saw Elba.")
+
 console.log(napoleonsLament.palindrome());
+
 $ node test.js
-true
-`
+
+true`
